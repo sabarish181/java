@@ -6,4 +6,5 @@ public class q18{
         String result=(a>40)?"Pass":"fail";
         System.out.println(result);
     }
+    
 }
