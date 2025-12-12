@@ -6,4 +6,5 @@ public class q2 {
         int b=sc.nextInt();
         System.out.println(a-b);
     }
+    
 }
