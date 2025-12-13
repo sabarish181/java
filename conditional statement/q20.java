@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class q20{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        char ch=sc.next().charAt(0);
+        int a=(int)ch;
+        if(a%2==0){
+            System.out.println("It is even");
+        }
+        else{
+            System.out.println("It is odd");
+        }
+    }
+}
