@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 //1 Scenario Based Q1.Write a java Program to print Price After Discount
