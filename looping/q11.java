@@ -5,15 +5,17 @@ public class q11{
         int a=sc.nextInt();
         int count=1;
         for(int i=1;i<=a;i++){
-            if(num%i==0){
+            if (a%i==0){
             count++;
         }
-    }
-       if(a%i==0){
+       if(a%i!=0){
             System.out.println("prime");
+            break;
         }
         else{
             System.out.println("not prime");
+            break;
         }
     }
+}
 }
